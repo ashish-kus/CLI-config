@@ -8,6 +8,7 @@ linking() {
 }
 
  linking "$myloc/shell" "$HOME/.config/shell"
+ linking "$myloc/starship.toml" "$HOME/.config/starship.toml"
 
 
 
