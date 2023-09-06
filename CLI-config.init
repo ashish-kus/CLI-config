@@ -1,0 +1,15 @@
+# Location of present dotfile folder cloned grom git
+myloc="$(dirname $(realpath ${BASH_SOURCE[@]:-0}))" 
+
+# function to link the files
+linking() {
+	echo "$1 -> $2"
+	ln -sf "$1" "$2"
+}
+
+ linking "$myloc/shell" "$HOME/.config/shell"
+
+
+
+unset linking
+echo " DONE"
