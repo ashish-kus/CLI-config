@@ -24,24 +24,22 @@ alias f="find . | grep "
 
 # Alias's for archives
 alias mktar='tar -cvf'
-alias mkbz2='tar -cvjf'
+alias mkbz2='tar -cvjf' 
 alias mkgz='tar -cvzf'
 alias untar='tar -xvf'
 alias unbz2='tar -xvjf'
 alias ungz='tar -xvzf'
 
 #=========================== [ Modified Command ] ===========================
-alias cp="cp -i"
-alias mv="mv -i"
-alias rm="rm -iv"
+# alias cp="cp -i"
+# alias mv="mv -i"
+# alias rm="rm -iv"
 alias mkdir="mkdir -p"
 alias ping="ping -c 10"
 alias less="less -R"
 
 #============================ [ MOVEMENT ] ===================================
-# alias ../="cd ../"
-# alias .../="cd ../../"
-# alias ..../="cd ../../../"
+
 alias downloads="cd ~/Downloads"
 alias cdow="downloads"
 alias documents="cd ~/Documents"
@@ -56,11 +54,13 @@ alias cdoc="documents"
 [ -d "$HOME/Documents/Work" ] && alias cdw="cd $HOME/Documents/Work"
 [ -d "$HOME/.config/shell" ] && alias cds="cd $HOME/.config/shell"
 [ -d "$HOME/Pictures/" ] && alias cdp="cd $HOME/Pictures"
+[ -d "$HOME/Work/Repo/CLI-config/shell/" ] && alias shell="cd $HOME/Work/Repo/CLI-config/shell"
 
 [ -f "$HOME/.config/shell/alias" ] && alias ealias="vim $HOME/.config/shell/alias"
 [ -f "$HOME/.config/shell/path" ] && alias epath="vim $HOME/.config/shell/path"
 [ -f "$HOME/.config/shell/func" ] && alias efunc="vim $HOME/.config/shell/func"
 #=========================== [ CHECK_ALIAS ] ================================
+# check_alias for conditional based aliases, IF file or tool on which alias depend exist then aliass this 
 check_alias(){
     if command -v $1 &>/dev/null;then
         alias $2="$3"
@@ -75,8 +75,9 @@ check_alias glow mcat "glow"
 check_alias bpython python "bpython"
 check_alias sl sl "sl | lolcat"
 check_alias sensors wsensors 'watch -n1 -t "sensors"'
+check_alias 
 check_alias nvim vim "nvim"
-check_alias lvim vim "lvim"
+# check_alias lvim vim "lvim"
 unset -f check_alias
 #============================= [ alias for EXA ] ==================================
 if hash exa 2>/dev/null;then

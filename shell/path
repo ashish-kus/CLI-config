@@ -16,7 +16,7 @@ PATHLIST=(
     # "$HOME/ashishk/bin/hypr"
     # "$HOME/ashishk/bin/other"
     # "$HOME/ashishk/bin/sys"
-    # "$HOME/ashishk/bin/utils"
+    "$HOME/Work/bin/"
     "$HOME/.npm-global/bin"
     "$HOME/.cargo/bin"
 )
