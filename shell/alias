@@ -1,4 +1,3 @@
-
 #
 #  █████╗ ███████╗██╗  ██╗██╗███████╗██╗  ██╗      ██╗  ██╗██╗   ██╗███████╗
 # ██╔══██╗██╔════╝██║  ██║██║██╔════╝██║  ██║      ██║ ██╔╝██║   ██║██╔════╝
@@ -37,6 +36,7 @@ alias ungz='tar -xvzf'
 alias mkdir="mkdir -p"
 alias ping="ping -c 10"
 alias less="less -R"
+alias clock="watch -n1 -t 'date +%A%n%x%n%X | figlet  | center-align -a'"
 
 #============================ [ MOVEMENT ] ===================================
 
@@ -75,10 +75,11 @@ check_alias glow mcat "glow"
 check_alias bpython python "bpython"
 check_alias sl sl "sl | lolcat"
 check_alias sensors wsensors 'watch -n1 -t "sensors"'
-check_alias 
+check_alias center-align clock 'watch -n1 -t "date +%A%n%x%n%X | figlet  | center-align -a"'
 check_alias nvim vim "nvim"
 # check_alias lvim vim "lvim"
 unset -f check_alias
+
 #============================= [ alias for EXA ] ==================================
 if hash exa 2>/dev/null;then
  alias l='exa -lahF --color=auto --icons --sort=size --group-directories-first'
