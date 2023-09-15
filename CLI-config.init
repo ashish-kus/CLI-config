@@ -11,6 +11,7 @@ linking() {
  linking "$myloc/starship.toml" "$HOME/.config/starship.toml"
  linking "$myloc/.vimrc" "$HOME/"
  linking "$myloc/tmux" "$HOME/.config/tmux"
+ linking "$myloc/foot" "$HOME/.config/foot"
 
 
 
