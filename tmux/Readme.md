@@ -40,7 +40,8 @@ set -g @plugin 'tmux-plugins/tmux-sensible'
 ```
 
 ### Initialize TMUX plugin manager (keep this line at the very bottom of tmux.conf)
-```shellrun '~/.tmux/plugins/tpm/tpm'
+```shell
+    run '~/.tmux/plugins/tpm/tpm'
 ```
 
 Then press prefix + I (default prefix is Ctrl-a, followed by I) to install the plugins.
