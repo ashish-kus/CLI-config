@@ -7,11 +7,11 @@ linking() {
 	ln -sf "$1" "$2"
 }
 
- linking "$myloc/shell" "$HOME/.config/shell"
+ linking "$myloc/shell/shell.conf" "$HOME/.config/shell/shell.conf"
  linking "$myloc/starship.toml" "$HOME/.config/starship.toml"
- linking "$myloc/.vimrc" "$HOME/"
- linking "$myloc/tmux" "$HOME/.config/tmux"
- linking "$myloc/foot" "$HOME/.config/foot"
+ linking "$myloc/.vimrc" "$HOME/.vimrc"
+ linking "$myloc/tmux/tmux.conf" "$HOME/.config/tmux/tmux.conf"
+ linking "$myloc/foot/foot.init" "$HOME/.config/foot/foot.ini"
 
 
 
