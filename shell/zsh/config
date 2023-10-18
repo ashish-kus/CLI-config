@@ -42,4 +42,7 @@ zstyle ':completion:*' matcher-list 'm:{a-zA-Z}={A-Za-z}'
 # Initialize Zoxide for better directory navigatio
 eval "$(zoxide init zsh --cmd cd --hook pwd)"
 
- 
+alias ../="cd ../"
+alias ../../="cd ../../"
+alias ../../../="cd ../../../"
+
