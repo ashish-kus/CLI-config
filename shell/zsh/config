@@ -29,8 +29,8 @@ znap source chrissicool/zsh-256color
 
 # For that plugin to work, you do need to load the required libraries first
 
-# znap source ohmyzsh/ohmyzsh plugins/{sudo,colored-man-pages}
-# znap source ohmyzsh/ohmyzsh lib/theme-and-appearance 
+ znap source ohmyzsh/ohmyzsh plugins/{sudo,colored-man-pages}
+ znap source ohmyzsh/ohmyzsh lib/theme-and-appearance 
 
 # Completions
 znap function _starship starship 'eval "$( starship completions zsh )"'
