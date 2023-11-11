@@ -68,7 +68,7 @@ hide-when-typing=yes
 # alternate-scroll-mode=yes
 
 [colors]
-alpha=0.6
+alpha=0.4
 background=5000a
 # background=ffffff
 # foreground=839496

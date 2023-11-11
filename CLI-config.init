@@ -12,6 +12,10 @@ linking() {
  linking "$myloc/.vimrc" "$HOME/.vimrc"
  linking "$myloc/tmux/tmux.conf" "$HOME/.config/tmux/tmux.conf"
  linking "$myloc/foot/foot.init" "$HOME/.config/foot/foot.ini"
+ linking "$myloc/bin" "$HOME/Work/bin"
+ linking "$myloc/espanso" "$HOME/.config/"
+ 
+
 
 
 

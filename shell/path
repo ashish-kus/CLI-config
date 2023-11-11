@@ -4,7 +4,7 @@ add_path(){
   ARR=("$@")
   for i in "${ARR[@]}"
     do
-     if [ -d $i ] && [[ ":$PATH:" != *":$i:"* ]]; then
+     if [[ -d $i ]] && [[ ":$PATH:" != *":$i:"* ]]; then
       export PATH="${PATH:+"$PATH:"}$i"
      fi
     done
@@ -12,15 +12,13 @@ add_path(){
 
 PATHLIST=(
     "$HOME/.local/bin"
-    "$HOME/ashishk/bin"
-    # "$HOME/ashishk/bin/hypr"
+    "$HOME/ashishk/.bin"
     # "$HOME/ashishk/bin/other"
     # "$HOME/ashishk/bin/sys"
     "$HOME/Work/bin/"
     "$HOME/.npm-global/bin"
     "$HOME/.cargo/bin"
 )
-
 
 add_path ${PATHLIST[@]}
 unset -f add_path
