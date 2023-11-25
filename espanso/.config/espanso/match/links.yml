@@ -10,3 +10,13 @@ matches:
 
   - trigger: ":tg"
     replace: "URL NOT SET"
+  
+  - trigger: ":linkedin"
+    replace: "https://www.linkedin.com/in/ashish-kushwaha-724a12201/"
+
+  - trigger: ":github"
+    replace: "https://github.com/ashish-kus/"
+
+  - trigger: ":portfolio"
+    replace: "http://ashish.kus2408.surge.sh/"
+

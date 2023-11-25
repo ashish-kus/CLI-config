@@ -22,12 +22,6 @@ matches:
 
   - trigger: ":DOB"
     replace: "24/08/2002"
-  
-  - trigger: ":github"
-    replace: "https://github.com/ashish-kus/"
-
-  - trigger: ":portfolio"
-    replace: "http://ashish.kus2408.surge.sh/"
     
   - trigger: ":skills"
     replace: "Languages: C, C++, Java, Python, BASH, HTML5, CSS, JavaScript. \nDatabases: MySQL. \nTools/Technologies: Linux (Arch, Kubantu, Kde Neon, PopOs, ZorinOs, Fedora), Git, QEMU, etc. \nIDEs: Visual Studio Code, NeoVim \nVersion Control: Git, github."
