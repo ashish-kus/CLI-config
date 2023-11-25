@@ -8,6 +8,7 @@
 #
 ###############################################################################
 
+alias termcode="lvim"
 #============================== [ GENERAL ] ===================================
 alias sudo="sudo "
 alias bye="shutdown now"
@@ -76,9 +77,9 @@ check_alias bpython python "bpython"
 check_alias sl sl "sl | lolcat"
 check_alias sensors wsensors 'watch -n1 -t "sensors"'
 check_alias center-align clock 'watch -n1 -t "date +%A%n%x%n%X | figlet  | center-align -a"'
-check_alias nvim vim "nvim"
+# check_alias nvim vim "nvim"
 # check_alias lvim vim "lvim"
-unset -f check_alias
+# unset -f check_alias
 
 #============================= [ alias for EXA ] ==================================
 if hash exa 2>/dev/null;then

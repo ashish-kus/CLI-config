@@ -1,0 +1,26 @@
+name: emails
+parent: default
+
+matches:
+  - trigger: ":email"
+    replace: "ashish.kus2408@gmail.com"
+
+  - trigger: ":proemail"
+    replace: "ashish.kuspro@gmail.com"
+
+  - trigger: ":random-mail"
+    replace: "nandubandu2408@gmail.com"
+
+  - trigger: ":mails"
+    replace: "{{output}}"
+    vars:
+      - name: output
+        type: choice
+        params:
+          values:
+            - label: "Personal"
+              id: "ashish.kus2408@gmail.com"
+            - label: "Professional"
+              id: "ashish.kuspro@gmail.com"
+            - label: "random"
+              id: "nandubandu2408@gmail.com"

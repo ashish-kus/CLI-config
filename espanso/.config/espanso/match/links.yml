@@ -1,0 +1,12 @@
+name: links
+parent: default
+
+matches:
+  - trigger: ":twitter"
+    replace: "https://twitter.com/AshishKus2408"
+
+  - trigger: ":insta"
+    replace: "https://www.instagram.com/_ashish_kushwaha_/?hl=en"
+
+  - trigger: ":tg"
+    replace: "URL NOT SET"

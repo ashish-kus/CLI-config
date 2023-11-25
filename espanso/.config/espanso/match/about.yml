@@ -1,0 +1,35 @@
+name: about
+parent: base
+
+matches:
+  - trigger: ":name"
+    replace: "Ashish Kushwaha"
+
+  - trigger: ":fname"
+    replace: "Ashish"
+
+  - trigger: ":lname"
+    replace: "Kushwaha"
+
+  - trigger: ":about"
+    replace: "I am Ashish Kushwaha, a Computer Science student at Gautam Buddha University, India, pursuing graduation. With expertise in Linux, full-stack development, and engagement in various open-source projects, I am a passionate self-taught web developer and freelance software engineer. Proficient in problem-solving and committed to continuous learning, my current focus lies in Linux systems, coupled with ongoing work on mastering data structures and algorithms. My resume reflects a dynamic blend of practical and creative projects, showcasing a dedication to excellence in the field of computer science."
+
+  - trigger: ":smallAbout"
+    replace: "I am a Computer Science student adept in Linux, full-stack development, and open-source projects, combining technical expertise with creative problem-solving as a self-taught web developer and freelance software engineer."
+
+  - trigger: ":phone"
+    replace: "+91 7525874187"
+
+  - trigger: ":DOB"
+    replace: "24/08/2002"
+  
+  - trigger: ":github"
+    replace: "https://github.com/ashish-kus/"
+
+  - trigger: ":portfolio"
+    replace: "http://ashish.kus2408.surge.sh/"
+    
+  - trigger: ":skills"
+    replace: "Languages: C, C++, Java, Python, BASH, HTML5, CSS, JavaScript. \nDatabases: MySQL. \nTools/Technologies: Linux (Arch, Kubantu, Kde Neon, PopOs, ZorinOs, Fedora), Git, QEMU, etc. \nIDEs: Visual Studio Code, NeoVim \nVersion Control: Git, github."
+
+

@@ -58,6 +58,8 @@ run(){
   case "$EXTENSION" in
    sh)
       ./$FILE ;;
+   lua)
+      lua "./$FILE";;
    py)
       python3 $FILE ;;
   cpp)
