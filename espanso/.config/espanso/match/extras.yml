@@ -1,0 +1,28 @@
+name: symbols
+parent: default
+
+matches:
+  - trigger: ":eur"
+    replace: "€"
+
+  - trigger: ':gbp'
+    replace: '£'
+
+  - trigger: ':usd'
+    replace: '$'
+
+  - trigger: ':jpy'
+    replace: '¥'
+
+  - trigger: ':inr'
+    replace: '₹'
+
+  - trigger: ':btc'
+    replace: '฿'
+
+  - trigger: ':eth'
+    replace: 'Ξ'
+
+  - triggers: [':(c)', ':copyright:']
+    replace: '©'
+  
